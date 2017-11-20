@@ -3,7 +3,7 @@
 #Thx, http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files
 
 #Point to where you want the script to look and where it should backup files it replaces
-folder=~/Volumes/Seagate\ 4TB/Dropbox\ \(C3\ Ottawa\)
+folder=~/Volumes/Seagate/4TB/Dropbox/C3_Ottawa/
 backup=~/Desktop/Script_Backup
 
 #colors
