@@ -18,7 +18,7 @@ echo "This script will climb through the $folder tree and repair conflict files 
 if [[ $1 == "replace" ]]; then
     echo -e "${red}This is NOT a drill.${NC} The script will backup the older of the conflicted files and then delete it from the Dropbox directory."
 else
-Run "./Dropbox.sh replace\"
+    echo -e "${purple}This is a dry run.${NC} You'll see what files would be replaced. Run \"./Dropbox.sh replace\" to make it run for real."
 fi
 echo "Press any key to continue..."
 echo "------------------------------"
